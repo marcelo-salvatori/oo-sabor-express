@@ -26,9 +26,3 @@ class Restaurante:
     
     def alternar_status(self):
         self._ativo = not self._ativo
-
-restaurante_praca = Restaurante('Praça','Gourmet')
-restaurante_pinda = Restaurante('Pindamanhagaba', 'Regional')
-restaurante_pinda.alternar_status()
-
-Restaurante.listar_restaurantes()
