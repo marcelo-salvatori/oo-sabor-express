@@ -1,2 +1,5 @@
 hora*
 *pycache*
+ex*
+venv
+*.json
